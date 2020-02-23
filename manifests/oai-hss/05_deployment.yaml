@@ -88,7 +88,6 @@ spec:
         - cqlsh cassandra-0.cassandra.oai.svc.cluster.local --file /root/oai_db.cql
         image: cassandra:3.11
         name: init-db
-        restartPolicy: Never
         volumeMounts:
         - mountPath: /root
           name: db
