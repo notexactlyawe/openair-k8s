@@ -23,7 +23,7 @@ spec:
         runAsGroup: 0
       containers:
       - name: ue
-        image: image-registry.openshift-image-registry.svc:5000/oai/oai-ue
+        image: notexactlyawe/oai-ue
         imagePullPolicy: Always
         #command: ['sh', '-c', 'sleep 6000']
         securityContext:
